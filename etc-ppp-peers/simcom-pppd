@@ -1,0 +1,27 @@
+/dev/ttyS1 115200  #replace "ttyS1" with your port or if you're using an usb connection replace it with ttyUSB(1) 
+user "test" password "test"
+#connect chat
+connect 'chat -s -v -f /etc/ppp/peers/connect'
+#disconnect
+disconnect 'chat -s -v -f /etc/ppp/peers/disconnect'
+#hide-password in debug messages
+hide-password
+noauth
+debug
+defaultroute
+noipdefault
+novj
+novjccomp
+noccp
+ipcp-accept-local
+ipcp-accept-remote
+local
+lock
+modem
+dump
+nodetach
+nocrtscts
+remotename 3gppp
+ipparam 3gppp
+ipcp-max-failure 30
+usepeerdns
