@@ -16,6 +16,7 @@ For USB-connected modules, on modern kernels, the output typically resembles:
 here, <br> ```/dev/ttyUSB0``` is for diag port.
 <br> ```/dev/ttyUSB1``` is AT ports you can use it with ```screen/dev/ttyUSB1``` or minicom to test with AT Commands.
 <br> ```/dev/ttyUSB2``` is Modem port for ppp-dial.
+<br> ```/dev/ttyUSB3``` appears for module with GSM/GNSS connectivity 
 
 ### 2. PPP dialup connection setup 
 in the sub-folder /etc-ppp-peers there are three different files
