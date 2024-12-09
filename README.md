@@ -27,7 +27,7 @@ cd /etc/ppp/peers
 nano connect
 ```
 navigate to the sub-directory and use the ```nano``` command to create the files and copy the contents of them there, the naming doesnt matter as long as you have renamed them in the ```simcom-pppd``` file. 
-### 3. connect 
+### 3. Connect 
 ```console
 pppd call simcom-pppd &
 ```
@@ -66,11 +66,11 @@ nano /path/to/your/connect.sh
 #!/bin/bash
 pppd call simcom-pppd &
 ```
-3. make it executable
+3. Make it executable
 ```console
 chmod +x /path/to/your/connect.sh
 ```
-4. edit the cron tab file : add this job.
+4. Edit the cron tab file : add this job.
 ```console
 crontab -e
 ```
