@@ -2,7 +2,7 @@
 
 ### The aim of this repo is to help people interface their BBB with any[^1] 4G modules available in the market. 
 You can connect your 4g Module with your BBB via UART or via an USB interface but for both the process is same you should only change a line of code to switch between them.  
-#### 1. Check your device connection 
+### 1. Check your device connection 
 Use the following command to list peripherals connected via serial or USB ports:
 ```console
 sudo dmesg | grep tty
@@ -17,6 +17,12 @@ here, <br> ```/dev/ttyUSB0``` is for diag port.
 <br> ```/dev/ttyUSB1``` is AT ports you can use it with ```screen/dev/ttyUSB1``` or minicom to test with AT Commands.
 <br> ```/dev/ttyUSB2``` is Modem port for ppp-dial.
 <br> ```/dev/ttyUSB3``` appears for module with GSM/GNSS connectivity 
+
+if you are using UART make sure to configure your UART pins accordingly, 
+```
+config-pin p9.11 uart
+config-pin p9.13 uart 
+```
 
 ### 2. PPP dialup connection setup 
 in the sub-folder /etc-ppp-peers there are three different files
@@ -66,6 +72,7 @@ nano /path/to/your/connect.sh
 #!/bin/bash
 pppd call simcom-pppd &
 ```
+if you are connecting it via UART make sure to add your ```config-pin``` command aswell.
 3. Make it executable
 ```console
 chmod +x /path/to/your/connect.sh
