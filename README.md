@@ -73,7 +73,7 @@ nano /path/to/your/connect.sh
 pppd call simcom-pppd &
 ```
 if you are connecting it via UART make sure to add your ```config-pin``` command aswell.
-3. Make it executable
+<br>3. Make it executable
 ```console
 chmod +x /path/to/your/connect.sh
 ```
