@@ -86,6 +86,8 @@ crontab -e
 ```
 
 ### 6. References 
-SIMCom Wireless Solutions, *SIMCom A7600 Linux USB User Guide*, Version 1.01.03, 2020. [Online]. Available: [https://www.cika.com/soporte/Information/GSMmodules/A76xx/SIMCOM_A7600_Linux_USB_User_Guide_V1.01.03.pdf](https://www.cika.com/soporte/Information/GSMmodules/A76xx/SIMCOM_A7600_Linux_USB_User_Guide_V1.01.03.pdf)
+SIMCom Wireless Solutions, *SIMCom A7600 Linux USB User Guide*, Version 1.01.03, 2020. [Online]. Available: [https://www.cika.com/soporte/Information/GSMmodules/A76xx/SIMCOM_A7600_Linux_USB_User_Guide_V1.01.03.pdf](https://www.cika.com/soporte/Information/GSMmodules/A76xx/SIMCOM_A7600_Linux_USB_User_Guide_V1.01.03.pdf) & [^2]
+
 
 [^1]: So far I have tested this with 4 different simcom 4g modules; [SIM A7672S - Parry tech](https://www.parrytech.net/pdfs/estore/4g-lte-cat-1-modem.pdf), [SIMA7670C - Adiy](https://adiy.in/shop/a7670c-4g-breakout-board/?srsltid=AfmBOoqGAMsl9KBrl2Gx2uHFHVRvCCSguIOWmV_AcQ0x4-Kk-XLMXUrF), [SIM A7672S - Ktron](https://www.ktron.in/product/sim-a7672s-4g-lte-2g-gnss-development-board/?utm_term&utm_campaign=smartShoppingAds4&utm_source=adwords&utm_medium=ppc&hsa_acc=6332829093&hsa_cam=18276269511&hsa_grp&hsa_ad&hsa_src=x&hsa_tgt&hsa_kw&hsa_mt&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=Cj0KCQiApNW6BhD5ARIsACmEbkVmTxbHn7FiiNSSl078muuBzfWbqwM-O2sGqrxkNcrQA1QrzrupDJkaAghKEALw_wcB&v=c86ee0d9d7ed), [SIM7600EI](https://www.rhydolabz.com/sim7600ei-4g-3g-2g-gsm-gprs-gps-uart-modem-rhydolabz?srsltid=AfmBOoordT3QPU8fbNfE2PBF830dnxGE7TgfpFVYpGTon-wg9q-JQuDa).
+[^2]: https://community.element14.com/products/devtools/single-board-computers/next-genbeaglebone/b/blog/posts/bbb4g 
